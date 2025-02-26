@@ -7,6 +7,8 @@ author = 'zhangfish'
 
 # Hello World
 
+test github workflow
+
 This is test for hugo
 
 <!--more-->
