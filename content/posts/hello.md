@@ -7,6 +7,13 @@ author = 'zhangfish'
 
 # Hello World
 
+This is test for hugo
+
+<!--more-->
+---
+
+## secondary title
+
 hello
 
 ```cpp

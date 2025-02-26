@@ -9,6 +9,7 @@ hasCJKLanguage = true
 title = "zhangfish's blog"
 # 是否使用 git 信息
 enableGitInfo = true
+gitRepo       = "https://github.com/Kudryavkaz/zhangfish.top"
 # 是否使用 emoji 代码
 enableEmoji = true
 # 更改使用 Hugo 构建网站时使用的默认主题
@@ -232,7 +233,7 @@ theme = "DoIt"
 
   # 作者的社交信息设置
   [params.social]
-    GitHub        = "Kudryavkaz"
+    GitHub = "Kudryavkaz"
     # Reddit        = "Kudryavkaz"
     Steam         = "zhangfish_"
     Stackoverflow = "23573847"
@@ -256,15 +257,15 @@ theme = "DoIt"
     # 是否在文章页面显示原始 Markdown 文档链接
     linkToMarkdown = true
     #  配置文章原始文件的链接
-    linkToSource = true
+    linkToSource = "https://github.com/Kudryavkaz/zhangfish.top/blob/master/content/{path}"
     # "https://github.com/user/repo/blob/main/{path}"
     #  配置编辑文章的链接
-    linkToEdit = true
+    linkToEdit = "https://github.com/Kudryavkaz/zhangfish.top/edit/master/content/{path}"
     # "https://github.com/user/repo/edit/main/{path}"
     # "https://gitlab.com/user/repo/-/edit/main/{path}"
     # "https://bitbucket.org/user/repo/src/main/{path}?mode=edit"
     #  配置提交错误的链接
-    linkToReport = true
+    linkToReport = "https://github.com/Kudryavkaz/zhangfish.top/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/Kudryavkaz/zhangfish.top/blob/master/content/{path}|"
     # "https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     #  是否在 RSS 中显示全文内容
     rssFullText = false
@@ -338,7 +339,7 @@ theme = "DoIt"
       fullscreen = true
     #  文章页面的分享信息设置
     [params.page.share]
-      enable        = true
+      enable = true
 
     # instant.page 设置
     [params.page.instantpage]
