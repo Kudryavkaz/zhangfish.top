@@ -2,12 +2,13 @@ name: Deploy Hugo site to server
 
 on:
   push:
-    branches: ["master"]
+    branches:
+      - master
   pull_request:
 
 jobs:
     deploy:
-        runs-on: debian-latest
+        runs-on: ubuntu-latest
         concurrency:
             group: ${{ github.workflow }}-${{ github.ref }}
         steps:
