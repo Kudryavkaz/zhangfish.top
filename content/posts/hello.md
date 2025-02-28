@@ -11,6 +11,8 @@ test cache
 
 This is test for hugo
 
+i need to test cache work
+
 <!--more-->
 ---
 
